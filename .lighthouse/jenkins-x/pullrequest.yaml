@@ -11,7 +11,7 @@ spec:
       taskSpec:
         metadata: {}
         stepTemplate:
-          image: uses:jstrachan/jx3-pipeline-catalog/tasks/.lighthouse/jenkins-x/pullrequest.yaml@uses
+          image: uses:jstrachan/jx3-pipeline-catalog/tasks/javascript/pullrequest.yaml@uses
           name: ""
           resources:
             requests:
