@@ -1,7 +1,0 @@
-apiVersion: core.jenkins-x.io/v4beta1
-kind: Settings
-spec:
-  gitUrl: "https://github.com/jstrachan/jx-demo-gke2-dev.git"
-  destination:
-    chartRepository: https://github.com/jstrachan/nodey553.git
-    chartKind: pages
