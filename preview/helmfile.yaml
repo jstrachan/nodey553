@@ -3,6 +3,9 @@ environments:
     values:
     - jx-values.yaml
 releases:
+- chart: jx3/jx-verify
+  name: jx-verify
+  namespace: '{{ requiredEnv "PREVIEW_NAMESPACE" }}'
 - chart: '../charts/{{ requiredEnv "APP_NAME" }}'
   name: preview
   wait: true
